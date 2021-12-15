@@ -9,15 +9,15 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: '/Login',
     name: 'Login',
     component: () =>
       import(/* webpackChunkName: "login" */ '../views/login/index.vue'),
   },
   {
-    path: '/Home',
+    path: '/',
     name: 'Home',
-    redirect: '/Home/content',
+    redirect: '/content',
     component: () =>
       import(/* webpackChunkName: "home" */ '../views/Home.vue'),
     children: [

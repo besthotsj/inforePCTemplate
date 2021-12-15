@@ -6,5 +6,11 @@
  * @LastEditTime: 2021-11-17 15:32:31
 -->
 <template>
-  <div>content</div>
+  <div class="v-root">内容</div>
 </template>
+<style>
+.v-root{
+  width: 100%;
+  height: 100%;
+}
+</style>

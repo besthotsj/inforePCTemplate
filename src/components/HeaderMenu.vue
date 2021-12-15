@@ -25,4 +25,7 @@ export default defineComponent({
 </script>
 
 <style lang="less" scoped>
+.r-header{
+  height: 80px;
+}
 </style>
