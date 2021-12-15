@@ -8,3 +8,16 @@
 <template>
   <div>登录</div>
 </template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+// import { useStore } from '@/store'
+
+export default defineComponent({
+  setup() {
+    // const store = useStore()
+    // onMounted(() => {
+    //   // store.commit('setSelectedMenu', 'tttt===')
+    // })
+  },
+})
+</script>

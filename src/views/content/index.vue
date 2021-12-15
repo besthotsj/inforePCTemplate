@@ -6,7 +6,5 @@
  * @LastEditTime: 2021-11-17 15:32:31
 -->
 <template>
-  <div>
-    content
-  </div>
+  <div>content</div>
 </template>

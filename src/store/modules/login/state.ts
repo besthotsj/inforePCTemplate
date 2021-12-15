@@ -7,13 +7,6 @@ export const state: ILoginInfo = {
     expireTime: '',
     token: '',
     userInfo: {
-      avatar: '',
-      gender: 0,
-      mobile: '',
-      nickname: '',
-      scenicCode: '',
-      userName: '',
-      userSourceType: '',
     }
   }
 }
